@@ -1,72 +1,114 @@
-\# AI Travel Guide
+# 🌍 AI Travel Guide
 
+An AI-powered travel guide that generates useful tourist information for destinations in the user's preferred language.
 
+## 🚀 Live Demo
 
-AI Travel Guide is an interactive travel assistant that generates historical information and AI-powered audio guides for tourist destinations.
+👉 **[Open AI Travel Guide](https://ai-travel-guide-frontend-xgyb.onrender.com)**
 
+## 💻 GitHub Repository
 
+This repository contains the complete source code for the project, including the frontend and backend.
 
-\## Features
+## ✨ Features
 
+* 🌍 Generate travel information for destinations
+* 🤖 AI-powered tourist guide
+* 📝 Summary and detailed travel information
+* 🌐 Multiple language support
+* 🔊 Voice/audio support
+* 📱 User-friendly interface
+* ⚡ Deployed and accessible online
 
+## 🛠️ Technologies Used
 
-\- Generate historical information about tourist places
+### Frontend
 
-\- AI-powered audio guides
+* HTML
+* CSS
+* JavaScript
 
-\- Multilingual support
+### Backend
 
-\- Male and female voice selection
+* Python
+* Flask
+* Flask-CORS
 
-\- Summary and detailed explanations
+### AI & APIs
 
-\- Text transcript
+* Google Gemini API
+* Murf AI
 
-\- Online deployment with Flask backend and static frontend
+### Deployment
 
+* Render
+* GitHub
 
-
-\## Technologies Used
-
-
-
-\- HTML
-
-\- JavaScript
-
-\- Python
-
-\- Flask
-
-\- Google Gemini API
-
-\- Murf AI API
-
-\- Render
-
-
-
-\## Project Structure
-
-
+## 📁 Project Structure
 
 ```text
-
-AI Travel Guide
-
-├── Backend
-
+AI-Travel-Guide/
+│
+├── Backend/
 │   ├── app.py
-
 │   ├── requirements.txt
-
-│   └── .gitignore
-
-├── Frontend
-
+│   └── .env
+│
+├── Frontend/
 │   ├── index.html
-
 │   └── index.js
-
+│
 └── README.md
+```
+
+## ⚙️ Local Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/panganamalalohi-design/ai-travel-guide-levelx.git
+```
+
+### 2. Open the project
+
+```bash
+cd ai-travel-guide-levelx
+```
+
+### 3. Install backend dependencies
+
+```bash
+cd Backend
+pip install -r requirements.txt
+```
+
+### 4. Configure environment variables
+
+Create a `.env` file inside the `Backend` folder and add the required API keys.
+
+### 5. Run the backend
+
+```bash
+python app.py
+```
+
+### 6. Run the frontend
+
+Open the `Frontend/index.html` file using a local server.
+
+## 🌐 Deployment
+
+The project is deployed using Render.
+
+**Live Website:**
+https://ai-travel-guide-frontend-xgyb.onrender.com
+
+**Backend API:**
+https://ai-travel-guide-levelx.onrender.com
+
+## 👩‍💻 Author
+
+**Lohitha Panganamala**
+
+B.Tech CSM | AI & Full-Stack Enthusiast
 
